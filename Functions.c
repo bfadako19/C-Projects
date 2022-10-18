@@ -10,6 +10,7 @@ You could also have int *, float *,or double *
 */
 void congratulate1(char*student,char*course,char*programmer){
     printf("%s has done as much as %s programming as %s\n",student,course,programmer);
+    congratulate2(student,course,programmer);
 }
 /*this functions has 3 parameters and a local variable*/
 void congratulate2(char*student,char*course,char*programmer){

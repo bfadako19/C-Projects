@@ -6,6 +6,7 @@
 #include "./headers/Functions.h"
 #include "./headers/Pointers.h"
 #include "./headers/PassByReference.h"
+#include "./headers/AssignmentB.h"
 
 int main(void){
     // puts ("Hello World");
@@ -44,16 +45,19 @@ int main(void){
     //pointerToNull();
     //testing Pass by Reference functionality
     //declare doubles for (x,y) point
-    double x = 3.0;
-    double y = 4.0;
+    //double x = 3.0;
+    //double y = 4.0;
     //declare doubles for (radiusPtr,thetaPtr)
-    double radiusPtr;
-    double thetaPtr;
+    //double radiusPtr;
+    //double thetaPtr;
     //call cartesianToPolar
     //must use the & to access an address of a variable
-    cartesianToPolar(x,y,&radiusPtr,&thetaPtr);
-    printf("(%.2f,%.2f) equals (%.2f,%.2f)\n",x,y,radiusPtr,thetaPtr);
- 
+    //cartesianToPolar(x,y,&radiusPtr,&thetaPtr);
+    //printf("(%.2f,%.2f) equals (%.2f,%.2f)\n",x,y,radiusPtr,thetaPtr);
+    int n = 4;
+    genFactorial(n);
+    genFactorialReference(n);
+    
 
 
 }
